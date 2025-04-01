@@ -1,0 +1,41 @@
+/* General Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #bdb8cc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Class Selector - Styling Title */
+.title {
+    color: #007bff;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* ID Selector - Styling Paragraph */
+#description {
+    font-size: 18px;
+    padding: 10px;
+    border-left: 0px solid #007bff;
+    margin: 20px 0;
+}
+
+/* Styling Image */
+.styled-image {
+    width: 300px;  /* Adjust width */
+    height: auto;  /* Maintain aspect ratio */
+    margin: 7px;  /* Add spacing between images */
+    border: 3px solid #333;  /* Add a border */
+    border-radius: 20px;  /* Round corners */
+}
+
+/* Footer Styling */
+.footer-text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #555;
+}
